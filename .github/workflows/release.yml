@@ -2,8 +2,8 @@ name: Docker CD
 
 on:
   push:
-    paths:
-    - "**Dockerfile**"
+    branches:
+      - main
 
 jobs:
   build:

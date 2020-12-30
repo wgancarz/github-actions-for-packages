@@ -1,4 +1,4 @@
-name: Docker CD
+name: CI/CD for main branch
 
 on:
   push:
